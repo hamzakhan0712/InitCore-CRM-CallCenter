@@ -1,61 +1,49 @@
-# CRM Project
+# InitCore-CRM — Call Center Management System
 
-A Customer Relationship Management (CRM) system built with Django.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Django](https://img.shields.io/badge/django-5.x-success.svg)
 
-## Installation
+> A full-stack **Django-powered CRM** platform built for **Call-Center operations** — manage leads, agents, and customers efficiently.
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/hamzakhan0712/InitCore_CallCenter_CRM/
-    ```
+---
 
-2. **Create and activate a virtual environment**:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+## 🚀 Overview
 
-3. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+**InitCore-CRM** is a robust Customer Relationship Management system designed to optimize **call-center workflows**.  
+It provides powerful features for customer tracking, agent management, call logging, and reporting — all within a clean web interface.
 
-## Configuration
+Whether you’re managing a small sales team or a large support center, this CRM helps you **organize operations, monitor performance, and increase productivity.**
 
-1. **Update `settings.py`** to use environment variables:
-    ```python
-    SET THE ENVIROMENTAL VARIABKE AND THE POSTGRESS USERNAME AND PASSWORD 
+---
 
-    SET THE EMAIL AND PASSWORD TOO FOR SENDING THE MAIL FROM THE COMPANY SIDE
+## ✨ Key Features
 
+- 📞 **Customer & Call Management** – Create, edit, and track customer interactions.
+- 👥 **Role-Based Access Control** – Superadmin, Manager, and Agent dashboards.
+- 📊 **Analytics Dashboard** – Monitor agent performance and call metrics in real-time.
+- 📧 **Email Notifications** – Send follow-ups or reminders directly from the app.
+- 🧩 **Extensible Architecture** – Easily customize for sales, support, or lead tracking.
+- 🌐 **Responsive UI** – Works seamlessly on desktop and mobile.
 
-    ```
+---
 
-## Running the Application
+## 🧰 Tech Stack
 
-1. **Apply database migrations**:
-    ```bash
-    python manage.py migrate
-    ```
+| Layer | Technologies Used |
+|-------|--------------------|
+| **Backend** | Python, Django |
+| **Frontend** | HTML, CSS, JavaScript (Bootstrap) |
+| **Database** | PostgreSQL / SQLite (dev) |
+| **Server** | Gunicorn, Nginx |
+| **Version Control** | Git & GitHub |
 
-2. **Create a superuser**:
-    ```bash
-    python manage.py createsuperuser
-    ```
+---
 
-3. **Run the development server**:
-    ```bash
-    python manage.py runserver
-    ```
+## ⚙️ Installation & Setup
 
-4. **Access the application**:
-    Open your web browser and go to `http://localhost:8000`.
-
-## Deployment
-
-1. **Configure your web server** (e.g., Gunicorn, Nginx) to serve the Django application.You have to setup Websocket and daphne too for prodcution it uses asgi.py whereas the regular produciton uses wsgi.py
-
-2. **Set up environment variables** in your production environment.
-
-3. **Run database migrations** and create a superuser in the production environment.
-
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/hamzakhan0712/InitCore_CallCenter_CRM.git
+cd InitCore_CallCenter_CRM
