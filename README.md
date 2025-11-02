@@ -1,4 +1,4 @@
-# CallCore CRM
+# InitCore-CRM-CallCenter
 
 <div align="center">
 
@@ -33,7 +33,7 @@
 
 ## 🎯 Overview
 
-**CallCore CRM** is a full-stack, production-ready Customer Relationship Management system built with Django, specifically engineered for call center environments. It provides a complete suite of tools to manage leads, track agent performance, process customer payments, generate invoices, and monitor real-time operations.
+**InitCore-CRM-CallCenter** is a full-stack, production-ready Customer Relationship Management system built with Django, specifically engineered for call center environments. It provides a complete suite of tools to manage leads, track agent performance, process customer payments, generate invoices, and monitor real-time operations.
 
 The platform supports multi-role access (Team Leaders, Agents, Admins), real-time WebSocket communication, comprehensive reporting, and automated workflows to streamline call center operations.
 
